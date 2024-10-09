@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .btn-hover:hover {
+            transform: scale(1.05);
+            transition: transform 0.2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="text-xl font-bold">MyTekung</a>
+            <nav class="space-x-6">
+                <a href="#features" class="text-gray-600 hover:text-gray-900">Features</a>
+                <a href="#testimonials" class="text-gray-600 hover:text-gray-900">Testimonials</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Tekung, Jangan Lupa Berdoa</h1>
+                <p class="mb-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, ut dolore
+                    accusantium eveniet ex voluptatem aliquam delectus iure quaerat ullam?</p>
+                <a href="#features"
+                    class="btn-hover bg-white text-blue-600 px-6 py-3 rounded-md shadow-lg hover:bg-blue-500 hover:text-white">Get
+                    Started</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://i.pinimg.com/564x/cc/48/ca/cc48cae44a6b9e3a17636b2566718388.jpg" alt="Product Image"
+                    class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">Features of Our Product</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-4">Feature One</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                        egestas.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-4">Feature Two</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                        egestas.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <h3 class="text-xl font-semibold mb-4">Feature Three</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                        egestas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">What Our Users Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <p class="mb-4">"This product changed my life! It made everything so much easier and efficient."</p>
+                    <h4 class="font-semibold">- User One</h4>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <p class="mb-4">"I couldn't imagine going back to my old routine without this amazing tool."</p>
+                    <h4 class="font-semibold">- User Two</h4>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <p class="mb-4">"A game changer in the industry. Highly recommend to anyone seeking a better
+                        workflow."</p>
+                    <h4 class="font-semibold">- User Three</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto text-center">
+            <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+            <div class="space-x-4 mb-6">
+                <a href="#" class="hover:text-blue-400">Facebook</a>
+                <a href="#" class="hover:text-blue-400">Twitter</a>
+                <a href="#" class="hover:text-blue-400">Instagram</a>
+            </div>
+            <p class="text-gray-400">© 2024 Tekung. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
